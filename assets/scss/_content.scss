@@ -195,7 +195,7 @@
           text-transform: uppercase;
           margin-left: 1rem;
           margin-right: 1rem;
-          font-size: 1.6rem;
+          font-size: 3rem;
 
           &:hover,
           &:focus {
@@ -203,7 +203,7 @@
           }
 
           @media only screen and (max-width: 768px) {
-            font-size: 1.4rem;
+            font-size: 2.8rem;
           }
         }
       }
