@@ -2,7 +2,7 @@
 <ul>
   {{ range sort . "weight" }}
     {{ if .img }}
-      <li style="max-width: 250px;">
+      <li style="max-width: 100px;">
         <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
           <img src="{{ .img | relURL }}" alt="{{ .name }}">
         </a>
